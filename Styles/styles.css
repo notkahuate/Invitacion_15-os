@@ -224,13 +224,13 @@ body {
 
 .venue-name {
   font-size: 1rem;
-  color: #666;
+ color: black;
   font-style: italic;
 }
 
 .address {
   font-size: 0.9rem;
-  color: #666;
+  color: black;
   margin-bottom: 20px;
 }
 
