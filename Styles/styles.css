@@ -1,0 +1,493 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('/img/a96fd055f277fe8b69314ed3926ce313.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.invitation-container {
+  background-color: rgba(255, 255, 255, 0.5);
+
+  padding: 20px;
+  border-radius: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Header Section */
+.header-section {
+  padding: 30px 25px;
+  text-align: center;
+ 
+  position: relative;
+}
+
+.crown-container {
+  margin-bottom: 20px;
+}
+
+.crown {
+  font-size: 3rem;
+  filter: drop-shadow(0 4px 8px rgba(255, 215, 0, 0.3));
+}
+
+.decorative-elements {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 25px;
+}
+
+.heart {
+  font-size: 1.5rem;
+  animation: pulse 2s infinite;
+}
+
+.play-button {
+  font-size: 2rem;
+  background: rgba(139, 195, 74, 0.2);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.play-button:hover {
+  background: rgba(139, 195, 74, 0.4);
+  transform: scale(1.1);
+}
+
+.intro-text {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: black;
+  margin-bottom: 25px;
+  font-style: italic;
+}
+
+.hosts {
+  margin-bottom: 20px;
+}
+
+.host-names {
+  font-family: "Dancing Script", cursive;
+  font-size: 1.4rem;
+  color: black;
+  font-weight: 600;
+  margin: 5px 0;
+}
+
+.ampersand {
+  font-family: "Dancing Script", cursive;
+  font-size: 1.2rem;
+   color: black;
+  margin: 10px 0;
+}
+
+.invitation-text {
+  font-size: 0.9rem;
+   color: black;
+  margin-bottom: 15px;
+}
+
+.age-highlight {
+  font-family: "Dancing Script", cursive;
+  font-size: 4rem;
+   color: black;
+  font-weight: 700;
+  margin: 20px 0;
+  text-shadow: 2px 2px 4px rgba(139, 195, 74, 0.3);
+}
+
+.daughter-text {
+  font-size: 0.9rem;
+   color: black;
+  margin-bottom: 15px;
+}
+
+.celebrant-name {
+  font-family: "Dancing Script", cursive;
+  font-size: 2.5rem;
+  color: black;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 3px rgba(139, 195, 74, 0.3);
+}
+
+.princess-illustration {
+  position: absolute;
+  font-size: 4rem;
+  opacity: 0.3;
+}
+
+.left-princess {
+  bottom: 20px;
+  left: 20px;
+}
+
+.right-princess {
+  bottom: 20px;
+  right: 20px;
+}
+
+/* Details Section */
+.details-section {
+  padding: 30px 25px;
+
+  text-align: center;
+}
+
+.date-time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 30px;
+  padding: 20px;
+  background: rgba(139, 195, 74, 0.1);
+  border-radius: 15px;
+}
+
+.date-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.day-label {
+  font-size: 0.8rem;
+   color: black;
+  font-weight: 500;
+}
+
+.date-number {
+  font-size: 3rem;
+   color: black;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.time {
+  font-size: 0.9rem;
+   color: black;
+  font-weight: 500;
+}
+
+.month-year {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.month {
+  font-size: 1.2rem;
+   color: black;
+  font-weight: 600;
+}
+
+.year {
+  font-size: 0.9rem;
+   color: black;
+}
+
+.venue-info {
+  margin-bottom: 30px;
+}
+
+.castle-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.castle {
+  font-size: 1.5rem;
+}
+
+.venue-name {
+  font-size: 1rem;
+  color: #666;
+  font-style: italic;
+}
+
+.address {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.location-btn {
+  background: #8bc34a;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 25px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(139, 195, 74, 0.3);
+}
+
+.location-btn:hover {
+  background: #7cb342;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(139, 195, 74, 0.4);
+}
+
+.dress-code {
+  background: rgba(139, 195, 74, 0.1);
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.dress-code h3 {
+  font-size: 1rem;
+   color: black;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.dress-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 15px;
+}
+
+.tie,
+.dress {
+  font-size: 2rem;
+}
+
+.dress-style {
+  font-family: "Dancing Script", cursive;
+  font-size: 1.8rem;
+   color: black;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.dress-note {
+  font-size: 0.85rem;
+   color: black;
+  line-height: 1.5;
+}
+
+/* RSVP Section */
+.rsvp-section {
+  padding: 30px 25px;
+  text-align: center;
+  position: relative;
+}
+
+.calendar-icon {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.rsvp-text {
+  font-size: 0.9rem;
+  color: black;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.confirm-btn {
+  background: #8bc34a;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(139, 195, 74, 0.3);
+  margin-bottom: 30px;
+}
+
+.confirm-btn:hover {
+  background: #7cb342;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(139, 195, 74, 0.4);
+}
+
+.gift-info {
+  margin-bottom: 30px;
+  padding: 20px;
+  background: rgba(139, 195, 74, 0.05);
+  border-radius: 15px;
+}
+
+.gift-text {
+  font-size: 0.85rem;
+   color: black;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.envelope-icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.envelope-text {
+  font-size: 0.9rem;
+   color: black;
+  font-weight: 600;
+}
+
+.closing-message {
+  font-family: "Dancing Script", cursive;
+  font-size: 2.2rem;
+  color: black;
+  font-weight: 700;
+  text-shadow: 1px 1px 3px rgba(139, 195, 74, 0.3);
+}
+
+/* Background Decorations */
+.bg-decoration {
+  position: absolute;
+  font-size: 1.5rem;
+  opacity: 0.1;
+  animation: float 6s ease-in-out infinite;
+}
+
+.leaf-1 {
+  top: 10%;
+  left: 10%;
+  animation-delay: 0s;
+}
+
+.leaf-2 {
+  top: 30%;
+  right: 10%;
+  animation-delay: 2s;
+}
+
+.leaf-3 {
+  bottom: 20%;
+  left: 15%;
+  animation-delay: 4s;
+}
+
+.flower-1 {
+  top: 60%;
+  right: 15%;
+  animation-delay: 1s;
+}
+
+.flower-2 {
+  bottom: 40%;
+  right: 20%;
+  animation-delay: 3s;
+}
+
+/* Animations */
+@keyframes pulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .invitation-container {
+    margin: 10px;
+    border-radius: 15px;
+  }
+
+  .header-section,
+  .details-section,
+  .rsvp-section {
+    padding: 20px 15px;
+  }
+
+  .celebrant-name {
+    font-size: 2rem;
+  }
+
+  .age-highlight {
+    font-size: 3rem;
+  }
+
+  .date-number {
+    font-size: 2.5rem;
+  }
+
+  .closing-message {
+    font-size: 1.8rem;
+  }
+}
+
+/* Print Styles */
+@media print {
+  body {
+    background: white;
+  }
+
+  .invitation-container {
+    box-shadow: none;
+    border: 1px solid #ddd;
+  }
+
+  .play-button,
+  .location-btn,
+  .confirm-btn {
+    display: none;
+  }
+}
+.countdown-container {
+  margin: 20px auto 0 auto; /* Centra horizontalmente */
+  padding: 15px;
+  background: rgba(139, 195, 74, 0.1);
+  border-radius: 15px;
+  text-align: center;
+  display: block; /* Asegura comportamiento de bloque */
+  max-width: 300px; /* Ancho máximo opcional para estética */
+}
+
+.countdown-title {
+  font-size: 1rem;
+  color: black;
+  margin-bottom: 8px;
+}
+
+.countdown-timer {
+  font-size: 1.5rem;
+  font-weight: bold;
+   color: black;
+}

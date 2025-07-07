@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitación Quinceañera - Zoe Antonella</title>
+    <link rel="stylesheet" href="Styles/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="invitation-container">
+        <!-- Header Section -->
+        <div class="header-section">
+            <div class="crown-container">
+                <div class="crown">👑</div>
+            </div>
+            
+            <div class="decorative-elements">
+                <div class="heart left">💚</div>
+                <div class="play-button" onclick="playMusic()">▶️</div>
+                <div class="heart right">💚</div>
+            </div>
+            
+            <div class="main-text">
+                <p class="intro-text">
+                    Cumplir 15 años y compartirlo con los que amo es una 
+                    manera de ser feliz y celebrar estos quince años que me 
+                    han sido dados para fortalecer los dones que Dios me 
+                    dio en todos los actos de mi vida.
+                </p>
+                
+                <div class="hosts">
+                    <p class="host-names">Raul Oswaldo Bueno</p>
+                    <p class="ampersand">&</p>
+                    <p class="host-names">Yuly Paola Rojas</p>
+                </div>
+                
+                <p class="invitation-text">Se complacen en invitarles a celebrar los</p>
+                
+                <div class="age-highlight">XV</div>
+                
+                <p class="daughter-text">De su adorada hija:</p>
+                
+                <h1 class="celebrant-name">Maria Alenadra</h1>
+            </div>
+            
+            <div class="princess-illustration left-princess">👸</div>
+        </div>
+
+        <div class="countdown-container">
+    <h2>Faltan:</h2>
+    <p id="countdown" class="countdown-timer">Cargando...</p>
+</div>
+
+        <!-- Event Details Section -->
+        <div class="details-section">
+            <div class="date-time">
+                <div class="date-container">
+                    <span class="day-label">SÁBADO</span>
+                    <span class="date-number">13</span>
+                    <span class="time">8:00 P.M.</span>
+                </div>
+                <div class="month-year">
+                    <span class="month">Septiembre</span>
+                    <span class="year">2025</span>
+                </div>
+            </div>
+            
+            <div class="venue-info">
+                <div class="castle-icons">
+                    <span class="castle">🏰</span>
+                    <span class="venue-name">"Terminal"</span>
+                    <span class="castle">🏰</span>
+                </div>
+                <p class="address">Av. Cualquiera 123 - Distrito</p>
+                
+                <button class="location-btn" onclick="viewLocation()">
+                    📍 VER UBICACIÓN
+                </button>
+            </div>
+            
+            <div class="dress-code">
+                <h3>DRESS CODE:</h3>
+                <div class="dress-icons">
+                    <span class="tie">👔</span>
+                    <span class="dress">👗</span>
+                </div>
+                <h4 class="dress-style">Sport elegante</h4>
+                <p class="dress-note">
+                    Amablemente, el color verde únicamente 
+                    para la quinceañera.
+                </p>
+            </div>
+        </div>
+
+        <!-- RSVP Section -->
+        <div class="rsvp-section">
+            <div class="calendar-icon">📅</div>
+            
+            <p class="rsvp-text">
+                Por favor, confirme su asistencia antes 
+                del 30 de Agosto.
+            </p>
+            
+            <button class="confirm-btn" onclick="confirmAttendance()">
+                ✅ CONFIRMAR
+            </button>
+            
+            <div class="gift-info">
+                <p class="gift-text">
+                    Tu presencia en este día especial es el mejor regalo, 
+                    pero si deseas obsequiarme un detalle, una contribución en 
+                    efectivo será recibida con mucho cariño y gratitud.
+                </p>
+                
+                <div class="envelope-icon">✉️</div>
+                <p class="envelope-text">LLUVIA DE SOBRES</p>
+            </div>
+            
+            <h2 class="closing-message">¡Te esperamos!</h2>
+            
+            <div class="princess-illustration right-princess">👸</div>
+        </div>
+        
+        <!-- Decorative Background Elements -->
+        <div class="bg-decoration leaf-1">🍃</div>
+        <div class="bg-decoration leaf-2">🍃</div>
+        <div class="bg-decoration leaf-3">🍃</div>
+        <div class="bg-decoration flower-1">🌸</div>
+        <div class="bg-decoration flower-2">🌸</div>
+    </div>
+
+    <!-- Audio element for background music -->
+    <audio id="backgroundMusic" loop>
+        <source src="/music/ptmusic.co.za - Evangeline-La princesa y el sapo Canción (video no mío) Sr.Leo-Pardo (320 KBps).mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="App/script.js"></script>
+</body>
+</html>
