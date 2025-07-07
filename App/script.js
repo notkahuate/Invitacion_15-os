@@ -54,9 +54,9 @@ function viewLocation() {
 // RSVP functionality
 function confirmAttendance() {
   // You can integrate with a form service, email, or WhatsApp
-  const phoneNumber = "+573162851135" // Replace with actual phone number
+  const phoneNumber = "+573168292417" // Replace with actual phone number
   const message = encodeURIComponent(
-    "¡Hola! Confirmo mi asistencia a la quinceañera de Zoe Antonella el 10 de mayo de 2025. ¡Nos vemos ahí! 🎉",
+    "¡Hola! Confirmo mi asistencia a la quinceañera de Maria Alejandra el 13 de Septiembre de 2025. ¡Nos vemos ahí! 🎉",
   )
 
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`

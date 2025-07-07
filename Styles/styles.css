@@ -15,6 +15,17 @@ body {
   padding: 0;
 }
 
+/* Corrección para móviles */
+@media (max-width: 768px) {
+  body {
+    background-attachment: scroll;
+    background-size: cover; /* o 'contain' si quieres que se vea completa */
+    background-position: top center;
+  }
+}
+
+
+
 .invitation-container {
   background-color: rgba(255, 255, 255, 0.5);
 
