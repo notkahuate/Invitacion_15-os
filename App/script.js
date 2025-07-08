@@ -29,12 +29,12 @@ function playMusic() {
 // Location functionality
 function viewLocation() {
   // Replace with actual coordinates or address
-  const address = "Av. Cualquiera 123, Distrito"
+  const address = "Eventos Palmera Real"
   const encodedAddress = encodeURIComponent(address)
 
   // Try to open in Google Maps app first, then fallback to web
   const googleMapsApp = `comgooglemaps://?q=${encodedAddress}`
-  const googleMapsWeb = `https://www.google.com/maps/search/?api=1&query=${encodedAddress}`
+  const googleMapsWeb = `https://maps.app.goo.gl/p3Wa529tNRL3riUi6?g_st=aw`
 
   // For mobile devices, try to open the app
   if (/Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
