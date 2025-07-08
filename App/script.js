@@ -56,7 +56,7 @@ function confirmAttendance() {
   // You can integrate with a form service, email, or WhatsApp
   const phoneNumber = "+573168292417" // Replace with actual phone number
   const message = encodeURIComponent(
-    "¡Hola! Confirmo mi asistencia a la quinceañera de Maria Alejandra el 13 de Septiembre de 2025. ¡Nos vemos ahí! 🎉",
+    "¡Hola! Confirmo mi asistencia para los quince años de Maria Alejandra. ¡Nos vemos ahí! 🎉",
   )
 
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`
